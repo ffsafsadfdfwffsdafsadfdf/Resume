@@ -26,15 +26,6 @@ function fncChgImg(obj, pos)
 }
 
 
-
-function setImg()
-{
-    cur++;
-    if (cur >= imgAry.length) cur = 0;
-    var obj = document.getElementById('img' + cur);
-    fncChgImg(obj, cur)
-    setTimeout(setImg, 1000);
-}
 </script>
 </head>
 <body>
