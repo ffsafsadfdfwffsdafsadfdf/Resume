@@ -11,18 +11,9 @@ imgAry.push("Happy_birthday_1.jpg");
 imgAry.push("Happy_birthday_2.jpg");
 imgAry.push("Happy_birthday_3.jpg");
 
-var cur = 0;
-
 function fncChgImg(obj, pos)
-{
-    cur = pos;
-    for (var i = 0; i < imgAry.length; i++)
-    {
-        var cig = document.getElementById('img' + i);
-        if (i == pos)
-    
+{    
             document.getElementById('rotate').src = imgAry[pos];
-    }
 }
 
 
